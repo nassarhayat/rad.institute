@@ -3,24 +3,24 @@
 </script>
 
 
-<h1>Welcome</h1>
-<div class="home-feed">
-    <a href="/posts/hi-brandon" class="post">
+<h1>Showcase</h1>
+<div class="feed">
+    <a href="/posts/1" class="post">
         <img src="/imgs/post-img.png" alt="post-img" class="post-img">
         <h2>Lessons learned building an education programme for developers</h2>
         <p>article</p>
     </a>
-    <a href="/posts/jumping-dogs" class="post">
+    <a href="/posts/1" class="post">
         <img src="/imgs/post-img.png" alt="post-img" class="post-img">
         <h2>Lessons learned building an education programme for developers</h2>
         <p>article</p>
     </a>
-    <a href="/posts/flying-cats" class="post">
+    <a href="/posts/1" class="post">
         <img src="/imgs/post-img.png" alt="post-img" class="post-img">
         <h2>Lessons learned building an education programme for developers</h2>
         <p>article</p>
     </a>
-    <a href="/posts/hello-mate" class="post">
+    <a href="/posts/1" class="post">
         <img src="/imgs/post-img.png" alt="post-img" class="post-img">
         <h2>Lessons learned building an education programme for developers</h2>
         <p>article</p>
@@ -29,7 +29,7 @@
 <Newsletter />
 
 <style>
-    .home-feed {
+    .feed {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
