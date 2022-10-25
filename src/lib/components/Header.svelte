@@ -9,6 +9,3 @@
     <a href="/showcase">showcase</a>
   </div>
 </header>
-
-<style>
-</style>

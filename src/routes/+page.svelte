@@ -3,8 +3,8 @@
 </script>
 
 <!-- <h1>Welcome</h1> -->
-<div class="home-feed">
-  <a href="/posts/hi-brandon" class="post articles">
+<div class="feed">
+  <a href="/posts/hi-brandon" class="post article">
     <img src="/imgs/post-img1.jpg" alt="post-img" class="post-img" />
     <p class="tag">article</p>
     <h2>Lessons learned building an education programme for developers</h2>
@@ -14,19 +14,19 @@
     <p class="tag">research</p>
     <h2>Lessons learned building an education programme for developers</h2>
   </a>
-  <a href="/posts/flying-cats" class="post events">
+  <a href="/posts/flying-cats" class="post event">
     <img src="/imgs/post-img3.jpg" alt="post-img" class="post-img" />
-    <p class="tag">events</p>
+    <p class="tag">event</p>
     <h2>Lessons learned building an education programme for developers</h2>
   </a>
-  <a href="/posts/hello-mate" class="post videos">
+  <a href="/posts/hello-mate" class="post video">
     <img src="/imgs/post-img4.jpg" alt="post-img" class="post-img" />
-    <p class="tag">videos</p>
+    <p class="tag">video</p>
     <h2>Lessons learned building an education programme for developers</h2>
   </a>
-  <a href="/posts/hello-mate" class="post fellowships">
+  <a href="/posts/hello-mate" class="post fellowship">
     <img src="/imgs/post-img5.jpg" alt="post-img" class="post-img" />
-    <p class="tag">fellowships</p>
+    <p class="tag">fellowship</p>
     <h2>Lessons learned building an education programme for developers</h2>
   </a>
   <a href="/posts/hello-mate" class="post showcase">
@@ -34,7 +34,7 @@
     <p class="tag">showcase</p>
     <h2>Lessons learned building an education programme for developers</h2>
   </a>
-  <a href="/posts/hi-brandon" class="post articles">
+  <a href="/posts/hi-brandon" class="post article">
     <img src="/imgs/post-img7.jpg" alt="post-img" class="post-img" />
     <p class="tag">article</p>
     <h2>Lessons learned building an education programme for developers</h2>
@@ -44,19 +44,19 @@
     <p class="tag">research</p>
     <h2>Lessons learned building an education programme for developers</h2>
   </a>
-  <a href="/posts/flying-cats" class="post events">
+  <a href="/posts/flying-cats" class="post event">
     <img src="/imgs/post-img9.jpg" alt="post-img" class="post-img" />
-    <p class="tag">events</p>
+    <p class="tag">event</p>
     <h2>Lessons learned building an education programme for developers</h2>
   </a>
-  <a href="/posts/hello-mate" class="post videos">
+  <a href="/posts/hello-mate" class="post video">
     <img src="/imgs/post-img10.jpg" alt="post-img" class="post-img" />
-    <p class="tag">videos</p>
+    <p class="tag">video</p>
     <h2>Lessons learned building an education programme for developers</h2>
   </a>
-  <a href="/posts/hello-mate" class="post fellowships">
+  <a href="/posts/hello-mate" class="post fellowship">
     <img src="/imgs/post-img11.jpg" alt="post-img" class="post-img" />
-    <p class="tag">fellowships</p>
+    <p class="tag">fellowship</p>
     <h2>Lessons learned building an education programme for developers</h2>
   </a>
   <a href="/posts/hello-mate" class="post showcase">
