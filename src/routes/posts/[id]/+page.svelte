@@ -118,7 +118,14 @@
       <li>what’s going on, and answer their questions</li>
     </ul>
 
-    <h3 />
+    <!-- TO DO:
+    - Add h3
+    - add footer with references
+    - link references from links above to the footer
+    - code block
+    - numbered list
+    - paragraph-width image
+    - link style -->
   </div>
 </div>
 <!-- closes post -->
