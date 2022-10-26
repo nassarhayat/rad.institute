@@ -106,26 +106,6 @@ header {
   width: 100%;
 }
 
-.logo {
-  width: 100%;
-  position: fixed;
-  font-size: 6vw;
-  font-weight: normal;
-  font-family: var(--special-font);
-  top: var(--space-large);
-}
-
-.nav {
-  position: fixed;
-  top: 0px;
-  display: flex;
-  flex-direction: row;
-  column-gap: var(--space-medium);
-  align-items: end;
-  row-gap: var(--space-small);
-  font-size: 36.5px;
-}
-
 .feed {
   width: 90%;
   margin: 140px auto;

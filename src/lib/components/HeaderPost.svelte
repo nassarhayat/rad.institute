@@ -14,7 +14,7 @@
   .logo {
     width: 100%;
     position: fixed;
-    font-size: 6vw;
+    font-size: 3vw;
     font-weight: normal;
     font-family: var(--special-font);
     top: var(--space-large);
