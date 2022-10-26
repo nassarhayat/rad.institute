@@ -1,7 +1,9 @@
 <script>
   import Newsletter from "$lib/components/Newsletter.svelte";
+  import Header from "../lib/components/Header.svelte";
 </script>
 
+<Header />
 <!-- <h1>Welcome</h1> -->
 <div class="feed">
   <a href="/articles/hi-brandon" class="post article">
