@@ -1,7 +1,9 @@
 <script>
+  import Header from "../../lib/components/Header.svelte";
   import Newsletter from "$lib/components/Newsletter.svelte";
 </script>
 
+<Header />
 <h1>Fellowship</h1>
 <img src="/imgs/post-img1.jpg" alt="post-img" />
 <p class="tag">fellowship</p>

@@ -1,4 +1,5 @@
 <script>
+  import HeaderPost from "$lib/components/HeaderPost.svelte";
   import { page } from "$app/stores";
   import postImg1 from "$lib/posts/post1/postImg1.png";
 </script>
@@ -10,6 +11,7 @@
     every page in a unique id so I can 
     style the each page separately if needed -->
 
+<HeaderPost />
 <div id="post">
   <h1 class="title">{$page.params.id}</h1>
   <!-- TO DO: this repeating background image should be dynamic.

@@ -1,7 +1,9 @@
 <script>
+  import Header from "$lib/components/Header.svelte";
   import Newsletter from "$lib/components/Newsletter.svelte";
 </script>
 
+<Header />
 <h1>Videos</h1>
 <div class="feed">
   <a href="/videos/hi-brandon" class="post video">
