@@ -26,7 +26,7 @@
 
   <div id="post-content">
     <p>
-      With so few affordances for taking action on the protocol itself,
+      WIIIIIITTTHHHH so few affordances for taking action on the protocol itself,
       community energy has gravitated towards web3’s ecosystem-wide issues like
       L2 scaling solutions and mechanisms for multi-chain governance. But in
       order for projects in this domain to be successful, Uniswap governance
@@ -129,3 +129,8 @@
   </div>
 </div>
 <!-- closes post -->
+
+<style>
+  
+</style>
+
