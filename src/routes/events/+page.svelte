@@ -1,10 +1,11 @@
 <script>
-  import Header from "../../lib/components/Header.svelte";
   import Newsletter from "$lib/components/Newsletter.svelte";
+  import HeaderSmall from "../../lib/components/HeaderSmall.svelte";
+  import PageTitle from "../../lib/components/PageTitle.svelte";
 </script>
 
-<Header />
-<h1>Articles</h1>
+<HeaderSmall />
+<PageTitle>Events</PageTitle>
 <div class="feed">
   <a href="/events/hi-brandon" class="post event">
     <img src="/imgs/post-img1.jpg" alt="post-img" class="post-img" />

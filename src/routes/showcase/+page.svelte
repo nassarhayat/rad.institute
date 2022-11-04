@@ -1,10 +1,11 @@
 <script>
-  import Header from "../../lib/components/Header.svelte";
   import Newsletter from "$lib/components/Newsletter.svelte";
+  import HeaderSmall from "../../lib/components/HeaderSmall.svelte";
+  import PageTitle from "../../lib/components/pageTitle.svelte";
 </script>
 
-<Header />
-<h1>Showcase</h1>
+<HeaderSmall />
+<PageTitle>Showcase</PageTitle>
 <div class="feed">
   <a href="/showcase/hi-brandon" class="post showcase">
     <img src="/imgs/post-img1.jpg" alt="post-img" class="post-img" />

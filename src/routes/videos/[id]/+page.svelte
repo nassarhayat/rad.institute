@@ -1,7 +1,8 @@
 <script>
   import { page } from "$app/stores";
-  import postImg1 from "$lib/posts/post1/postImg1.png";
-    import HeaderPost from "../../../lib/components/HeaderPost.svelte";
+  import postImg13 from "$lib/posts/post1/post-img-13.jpg";
+  import Footnote from "../../../lib/components/Footnote.svelte";
+  import HeaderSmall from "../../../lib/components/HeaderSmall.svelte";
 </script>
 
 <!-- TO DO: Need to remove or reduce the size of
@@ -10,7 +11,7 @@
 <!-- TO DO: Would also like to wrap the body of
     every page in a unique id so I can 
     style the each page separately if needed -->
-<HeaderPost />
+<HeaderSmall />
 <div id="post">
   <h1 class="title">{$page.params.id}</h1>
   <!-- TO DO: this repeating background image should be dynamic.
@@ -27,14 +28,14 @@
 
   <div id="post-content">
     <p>
-      WIIIIIITTTHHHH so few affordances for taking action on the protocol itself,
-      community energy has gravitated towards web3’s ecosystem-wide issues like
-      L2 scaling solutions and mechanisms for multi-chain governance. But in
-      order for projects in this domain to be successful, Uniswap governance
-      needs more off-chain organizational structures and processes to facilitate
-      coordination across the complex web of stakeholders. We explore the
-      multidimensional nature of this problem and propose potential pathways
-      forward.
+      WIIIIIITTTHHHH so few affordances for taking action on the protocol
+      itself, community energy has gravitated towards web3’s ecosystem-wide
+      issues like L2 scaling solutions and mechanisms for multi-chain
+      governance. But in order for projects in this domain to be successful,
+      Uniswap governance needs more off-chain organizational structures and
+      processes to facilitate coordination across the complex web of
+      stakeholders. We explore the multidimensional nature of this problem and
+      propose potential pathways forward.
     </p>
 
     <blockquote>
@@ -45,7 +46,7 @@
     </blockquote>
 
     <div class="image">
-      <img src={postImg1} alt="The project image" />
+      <img src={postImg13} alt="The project image" />
       <div class="caption">
         We compare human ratings of AI-written summaries between a control group
         receiving no assistance and an assisted group who get to see 8
@@ -62,7 +63,7 @@
 
     <p>
       Other existing approaches frequently use smaller, more closely paired
-      audio-text training datasets,<a class="footnote">123</a> or use broad but unsupervised
+      audio-text training datasets,<Footnote>123</Footnote> or use broad but unsupervised
       audio pretraining.456 Because Whisper was trained on a large and diverse dataset
       and was not fine-tuned to any specific one, it does not beat models that specialize
       in LibriSpeech performance, a famously competitive benchmark in speech recognition.
@@ -87,7 +88,7 @@
       remain aligned with human intent. Many previous works on aligning language
       models rely on human evaluations as a training signal. However, humans
       struggle at evaluating very difficult tasks—for example, it is hard to
-      spot every bug in a codebase or every<a class="footnote">18</a> factual error
+      spot every bug in a codebase or every<Footnote>18</Footnote> factual error
       in a long essay. Models may then learn to give outputs that look good to humans
       but have errors we systematically fail to notice.
     </p>
@@ -100,11 +101,12 @@
       book is a lot of work, but humans assisted with chapter summaries have a
       much easier time evaluating a book summary.
     </p>
+    <h3>Proof of Concept</h3>
     <ul>
       <li>As a proof of concept, we use supervised learning.</li>
       <li>To train language models to write critiques of</li>
       <li>
-        Topic-based summaries<a class="footnote">91</a> of short stories, Wikipedia
+        Topic-based summaries<Footnote>91</Footnote> of short stories, Wikipedia
         articles, and other texts from the internet
       </li>
       <ul>
@@ -129,9 +131,7 @@
     - link style -->
   </div>
 </div>
+
 <!-- closes post -->
-
 <style>
-  
 </style>
-

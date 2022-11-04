@@ -1,7 +1,7 @@
 <script>
   import { page } from "$app/stores";
-  import HeaderPost from "$lib/components/HeaderPost.svelte";
-  import postImg1 from "$lib/posts/post1/postImg1.png";
+  import HeaderSmall from "../../../lib/components/HeaderSmall.svelte";
+  import postImg13 from "$lib/posts/post1/postImg13.jpg";
 </script>
 
 <!-- TO DO: Need to remove or reduce the size of
@@ -11,7 +11,7 @@
     every page in a unique id so I can 
     style the each page separately if needed -->
 
-<HeaderPost />
+<HeaderSmall />
 <div id="post">
   <h1 class="title">{$page.params.id}</h1>
   <!-- TO DO: this repeating background image should be dynamic.
@@ -28,14 +28,14 @@
 
   <div id="post-content">
     <p>
-      WIIIIIITTTHHHH so few affordances for taking action on the protocol itself,
-      community energy has gravitated towards web3’s ecosystem-wide issues like
-      L2 scaling solutions and mechanisms for multi-chain governance. But in
-      order for projects in this domain to be successful, Uniswap governance
-      needs more off-chain organizational structures and processes to facilitate
-      coordination across the complex web of stakeholders. We explore the
-      multidimensional nature of this problem and propose potential pathways
-      forward.
+      WIIIIIITTTHHHH so few affordances for taking action on the protocol
+      itself, community energy has gravitated towards web3’s ecosystem-wide
+      issues like L2 scaling solutions and mechanisms for multi-chain
+      governance. But in order for projects in this domain to be successful,
+      Uniswap governance needs more off-chain organizational structures and
+      processes to facilitate coordination across the complex web of
+      stakeholders. We explore the multidimensional nature of this problem and
+      propose potential pathways forward.
     </p>
 
     <blockquote>
@@ -46,7 +46,7 @@
     </blockquote>
 
     <div class="image">
-      <img src={postImg1} alt="The project image" />
+      <img src={postImg13} alt="The project image" />
       <div class="caption">
         We compare human ratings of AI-written summaries between a control group
         receiving no assistance and an assisted group who get to see 8
@@ -130,9 +130,7 @@
     - link style -->
   </div>
 </div>
+
 <!-- closes post -->
-
 <style>
-  
 </style>
-
