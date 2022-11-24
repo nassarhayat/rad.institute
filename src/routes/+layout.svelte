@@ -1,12 +1,9 @@
 <script>
-    import '../app.css'
-    import Header from '$lib/components/Header.svelte'
+  import "../app.css";
 </script>
 
 <svelte:head>
-	<title>rad.institute</title>
+  <title>Rad Institute</title>
 </svelte:head>
 
-<Header />
-
-<slot></slot>
+<slot />

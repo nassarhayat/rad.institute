@@ -1,32 +1,23 @@
+<script>
+  import Nav from "./Nav.svelte";
+  import Logo from "./Logo.svelte";
+</script>
+
 <header>
-	<a href="/" class="logo">rad.institute</a>
-	<div class="controls">
-		<a href="/articles">articles</a>
-		<a href="/research">research</a>
-		<a href="/events">events</a>
-		<a href="/videos">videos</a>
-		<a href="/fellowships">fellowships</a>
-		<a href="/showcase">showcase</a>
-	</div>
+  <a href="/" class="logo"><h1>Rad Institute</h1></a>
+  <Nav />
 </header>
 
 <style>
-	header {
-		padding: 20px;
-	}
-	.logo {
-		width: 100%;
-		font-size: 1.4rem;
-	}
+  .logo {
+    width: 100%;
+    font-size: 6vw;
+    font-weight: normal;
+    font-family: var(--special-font);
+    top: var(--space-large);
+  }
 
-	.controls {
-		position: absolute;
-		top: 20px;
-		right: 20px;
-		display: flex;
-		flex-direction: row;
-		column-gap: 20px;
-		align-items: end;
-		row-gap: 10px;
-	}
+  header {
+    position: static;
+  }
 </style>
