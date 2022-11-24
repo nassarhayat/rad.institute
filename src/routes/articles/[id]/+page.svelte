@@ -63,13 +63,13 @@
 
     <p>
       Other existing approaches frequently use smaller, more closely paired
-      audio-text training datasets,<a class="footnote">123</a> or use broad but unsupervised
-      audio pretraining.456 Because Whisper was trained on a large and diverse dataset
-      and was not fine-tuned to any specific one, it does not beat models that specialize
-      in LibriSpeech performance, a famously competitive benchmark in speech recognition.
-      However, when we measure Whisper’s zero-shot performance across many diverse
-      datasets we find it is much more robust and makes 50% fewer errors than those
-      models.
+      audio-text training datasets,<a class="footnote">123</a> or use broad but
+      unsupervised audio pretraining.<a class="footnote">456</a> Because Whisper
+      was trained on a large and diverse dataset and was not fine-tuned to any specific
+      one, it does not beat models that specialize in LibriSpeech performance, a
+      famously competitive benchmark in speech recognition. However, when we measure
+      Whisper’s zero-shot performance across many diverse datasets we find it is
+      much more robust and makes 50% fewer errors than those models.
     </p>
 
     <h2>Do models tell us everything they know?</h2>
@@ -101,6 +101,8 @@
       book is a lot of work, but humans assisted with chapter summaries have a
       much easier time evaluating a book summary.
     </p>
+
+    <h3>Here’s a list of everything we’ve tried so far:</h3>
     <ul>
       <li>As a proof of concept, we use supervised learning.</li>
       <li>To train language models to write critiques of</li>
